@@ -7,6 +7,6 @@ namespace myname {
 extern "C" double _ZN6myname3varE;
 
 int main() {
-    printf("%d\n", _ZN6myname3varE);
+    printf("%d\n", (int)_ZN6myname3varE);
     return 0;
 }
